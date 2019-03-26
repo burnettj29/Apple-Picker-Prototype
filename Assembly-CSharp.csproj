@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{00FABA79-B0C5-83FB-D96C-D455E6B8D7FC}</ProjectGuid>
+    <ProjectGuid>{C3D253CD-3B6F-4F47-1AE8-16406E9BFAA0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,7 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Apple.cs" />
+     <Compile Include="Assets\ApplePicker.cs" />
      <Compile Include="Assets\AppleTree.cs" />
+     <Compile Include="Assets\Basket.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
